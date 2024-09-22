@@ -73,7 +73,7 @@ streamlit run app.py
 After running the command, navigate to http://localhost:8501 in your web browser to access the application.
 
 ### Usage
-1. Upload PDF: Click on the "Upload a PDF file" button to upload your document. The app will extract and display the first 1000 characters of the text for preview.
+1. Upload PDF: Click on the "Upload a PDF file" button to upload your document.
 
 2. Ask a Question: Enter your query in the input field. The app will retrieve the most relevant document chunks from Pinecone and generate an answer using Cohere's generative model.
 
