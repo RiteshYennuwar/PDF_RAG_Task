@@ -2,8 +2,6 @@
 
 This repository contains the code and resources for a Retrieval-Augmented Generation (RAG) based Question Answering (QA) bot. The QA bot leverages a vector database (Pinecone) for efficient retrieval of relevant document embeddings and uses Cohere's generative model to provide coherent answers based on the retrieved information.
 
-## Preview
-![App Preview](static/images/preview.png)
 
 ## Overview
 
@@ -75,16 +73,16 @@ After running the command, navigate to http://localhost:8501 in your web browser
 ## Docker Setup
 To containerize the application and run it using Docker, follow these steps:
 
-### Build the Docker Image
+### 1. Build the Docker Image
 
 Ensure you have Docker installed on your machine. Then, build the Docker image with the following command:
 ```bash
 docker build -t qa-bot-rag-app .
 ```
-### Run the Docker Container
+### 2. Run the Docker Container
 Run the Docker container, mapping the appropriate ports:
 ```bash
 docker run -p 8501:8501 qa-bot-rag-app
 ```
-### Access the Application
+### 3. Access the Application
 Navigate to http://localhost:8501 in your web browser to access the Streamlit application running inside the Docker container.
