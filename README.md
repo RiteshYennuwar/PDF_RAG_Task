@@ -11,7 +11,13 @@ The project focuses on building an interactive QA bot that allows users to uploa
 
 The project is organized into a modular structure to ensure scalability and maintainability:
 
+### Main Files
+`Part1.ipynb`: This is a colab notebook only for part1 of the task with detaied approach, direct link for colab notebook: https://colab.research.google.com/drive/1W1Uy-v_WTtJZf112P4R6yAgme5tgWTw1?usp=sharing
 
+`main.py`: This is for part 1 and 2 conbined without the project structure, you can run run the file using streamlit run
+```bash
+streamlit run app.py
+```
 ### File Descriptions
 
 - **`app.py`**: The main Streamlit application that orchestrates the workflow by importing and utilizing functions from other modules. It handles user interactions, such as uploading PDFs and inputting queries.
