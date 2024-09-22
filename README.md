@@ -14,9 +14,9 @@ The project is organized into a modular structure to ensure scalability and main
 ### Main Files
 `Part1.ipynb`: This is a colab notebook only for part1 of the task with detaied approach, direct link for colab notebook: https://colab.research.google.com/drive/1W1Uy-v_WTtJZf112P4R6yAgme5tgWTw1?usp=sharing
 
-`main.py`: This is for part 1 and 2 conbined without the project structure, you can run run the file using streamlit run
+`main.py`: This is for part 1 and 2 conbined without the project structure, start the streamlit file using
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 ## Preview
 <img src="static/images/preview.png" alt="app preview">
