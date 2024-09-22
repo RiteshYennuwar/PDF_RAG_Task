@@ -18,6 +18,9 @@ The project is organized into a modular structure to ensure scalability and main
 ```bash
 streamlit run app.py
 ```
+## Preview
+<img src="static/images/preview.png" alt="app preview">
+
 ### File Descriptions
 
 - **`app.py`**: The main Streamlit application that orchestrates the workflow by importing and utilizing functions from other modules. It handles user interactions, such as uploading PDFs and inputting queries.
