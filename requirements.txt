@@ -1,0 +1,9 @@
+PyPDF2 
+pinecone-client 
+sentence-transformers 
+cohere
+streamlit
+numpy
+typing
+dotenv
+-e .
