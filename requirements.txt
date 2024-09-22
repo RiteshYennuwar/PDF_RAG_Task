@@ -5,5 +5,5 @@ cohere
 streamlit
 numpy
 typing
-dotenv
+python-dotenv
 -e .

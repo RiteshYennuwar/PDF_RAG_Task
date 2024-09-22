@@ -47,8 +47,8 @@ To get started with the project, follow these steps:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/qa-bot-rag.git
-cd qa-bot-rag
+git clone https://github.com/RiteshYennuwar/PDF_RAG_Task.git
+cd PDF_RAG_Task
 ```
 ### 2. Set Up Configuration
 Create a .env file in the root directory and add your API keys:
