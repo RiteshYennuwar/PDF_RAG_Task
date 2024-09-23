@@ -54,10 +54,9 @@ git clone https://github.com/RiteshYennuwar/PDF_RAG_Task.git
 cd PDF_RAG_Task
 ```
 ### 2. Set Up Configuration
-Create a .env file in the root directory and add your API keys:
+Add your API keys in `config.py`:
 ```bash
 PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_ENV=your_pinecone_environment
 COHERE_API_KEY=your_cohere_api_key
 ```
 ### 3. Install Dependencies
